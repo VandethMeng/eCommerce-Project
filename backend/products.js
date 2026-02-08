@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: "p-001",
+    name: "Canvas Weekender",
+    price: 89.0,
+    category: "Travel",
+    description: "Durable canvas bag with padded straps and a waterproof base.",
+    image: "https://placehold.co/600x400?text=Canvas+Weekender",
+  },
+  {
+    id: "p-002",
+    name: "Ceramic Pour-Over Set",
+    price: 42.0,
+    category: "Home",
+    description: "Minimalist coffee kit with dripper, carafe, and filters.",
+    image: "https://placehold.co/600x400?text=Pour-Over+Set",
+  },
+  {
+    id: "p-003",
+    name: "Sandalwood Candle",
+    price: 18.0,
+    category: "Lifestyle",
+    description: "Slow-burning soy candle with warm, earthy notes.",
+    image: "https://placehold.co/600x400?text=Sandalwood+Candle",
+  },
+  {
+    id: "p-004",
+    name: "Linen Throw Blanket",
+    price: 64.0,
+    category: "Home",
+    description: "Soft, breathable linen blanket for cool evenings.",
+    image: "https://placehold.co/600x400?text=Linen+Throw",
+  },
+  {
+    id: "p-005",
+    name: "Leather Travel Wallet",
+    price: 38.0,
+    category: "Travel",
+    description: "Compact wallet with RFID protection and passport slot.",
+    image: "https://placehold.co/600x400?text=Travel+Wallet",
+  },
+  {
+    id: "p-006",
+    name: "Acrylic Desk Organizer",
+    price: 29.0,
+    category: "Office",
+    description: "Stackable trays for stationery and small devices.",
+    image: "https://placehold.co/600x400?text=Desk+Organizer",
+  },
+  {
+    id: "p-007",
+    name: "Hydration Glass Bottle",
+    price: 22.0,
+    category: "Lifestyle",
+    description: "Borosilicate glass bottle with silicone sleeve.",
+    image: "https://placehold.co/600x400?text=Glass+Bottle",
+  },
+  {
+    id: "p-008",
+    name: "Wireless Charging Dock",
+    price: 52.0,
+    category: "Tech",
+    description: "Fast-charging dock for phones and earbuds.",
+    image: "https://placehold.co/600x400?text=Charging+Dock",
+  },
+];
+
+export default products;
