@@ -10,7 +10,7 @@ function ChatWidget({ variant = "widget" }) {
   const activeRequestRef = useRef(null);
   const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || "").replace(
     /\/$/,
-    ""
+    "",
   );
 
   const sendMessage = async () => {

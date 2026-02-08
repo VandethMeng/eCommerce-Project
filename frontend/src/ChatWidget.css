@@ -123,7 +123,12 @@
   align-items: center;
   justify-content: center;
   padding: 32px;
-  background: radial-gradient(circle at top, #f6efe7 0%, #f5f4f2 45%, #edf1f4 100%);
+  background: radial-gradient(
+    circle at top,
+    #f6efe7 0%,
+    #f5f4f2 45%,
+    #edf1f4 100%
+  );
 }
 
 .chat-page .chat-panel {

@@ -35,7 +35,7 @@ app.post("/api/chat", async (req, res) => {
     const productContext = products
       .map(
         (product) =>
-          `${product.name} | $${product.price} | ${product.category} | ${product.description}`
+          `${product.name} | $${product.price} | ${product.category} | ${product.description}`,
       )
       .join("\n");
     const completion = await openai.chat.completions.create({
